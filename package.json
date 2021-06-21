@@ -1,0 +1,22 @@
+{
+  "name": "blogger-server",
+  "version": "1.0.0",
+  "description": "API service for blogger app",
+  "main": "index.js",
+  "repository": "https://github.com/abhijith1998/blogger-server.git",
+  "author": "Abhijith shetty",
+  "license": "MIT",
+  "private": "true",
+  "scripts": {
+    "dev": "nodemon index.js"
+  },
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "chalk": "^4.1.1",
+    "cors": "^2.8.5",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.12.11"
+  }
+}
